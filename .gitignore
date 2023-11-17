@@ -1,11 +1,13 @@
 # Visual Studio 2015 user specific files
 .vs/
+.vscode/
 
 # Compiled Object files
 *.slo
 *.lo
 *.o
 *.obj
+*.pdb
 
 # Precompiled Headers
 *.gch
@@ -14,7 +16,9 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
+
+# Note: Keeping DLLs for anyone who doesn't have Visual Studio
+#*.dll
 
 # Fortran module files
 *.mod
@@ -26,7 +30,7 @@
 *.lib
 
 # Executables
-*.exe
+#*.exe # See DLL reason
 *.out
 *.app
 *.ipa
@@ -46,7 +50,7 @@ SourceArt/**/*.png
 SourceArt/**/*.tga
 
 # Binary Files
-Binaries/*
+#Binaries/* # See DLL Reason
 Plugins/*/Binaries/*
 
 # Builds
